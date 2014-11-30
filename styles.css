@@ -33,6 +33,13 @@ img {
     height: auto;
 }
 aside {
-    margin-left: -210px;
+    position: fixed;
+    margin-left: -230px;
     float: left;
+    padding: 0 10px 40px;
+    background: #398B0D;
+}
+aside div {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
