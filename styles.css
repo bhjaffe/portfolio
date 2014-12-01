@@ -29,8 +29,11 @@ article {
     margin-bottom: 20px;
 }
 img {
+    display: block;
     width: 200px;
     height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 aside {
     position: fixed;
@@ -38,8 +41,4 @@ aside {
     float: left;
     padding: 0 10px 40px;
     background: #398B0D;
-}
-aside div {
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
