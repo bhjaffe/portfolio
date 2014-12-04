@@ -5,7 +5,8 @@ h1, h2, h3, p, ul, li, div, header, footer {
 }
 html {
     background-color: #303030;
-    padding: 0 40px 0;
+    padding: 0;
+    min-width: 1048px;
 }
 body {
     background-image: url("resources/paisleyBlack.png");
@@ -13,14 +14,51 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: 0 0;
-    width: 80%;
+    width: 70%;
     margin: auto;
-    padding: 10%;
+    margin-top: 0px;
+    padding: 0 10%;
     font-family: Futura, sans-serif;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-bottom: 10px;
 }
 header {
-    height: 40px;
-    margin-top: 30px;
+    height: 60px;
+    padding: 20px;
+}
+nav {
+    height: 50px;
+    width: 120%;
+    margin-left: -10%;
+    background: -webkit-linear-gradient(#AB780F, #825B0B); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#AB780F, #825B0B); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#AB780F, #825B0B); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#AB780F, #825B0B); /* Standard syntax */
+    border: 1px solid #303030;
+    border-radius: 2em;
+}
+nav div {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    display: table;
+    font-size: 130%;
+    font-variant: small-caps;
+}
+nav ul {
+    display: table-row;
+    text-align: center;
+}
+nav li {
+    display: table-cell;
+    margin: 0;
+    color: #fafafa;
+    letter-spacing: 3px;
+    border-left: 1px solid #303030;
+}
+nav li:first-of-type {
+    border-left: none;
 }
 h1{
     font-size: 300%;
@@ -38,11 +76,27 @@ em {
     font-weight: 600;
 }
 .row {
-    height: 30em;
+    height: 36em;
+    margin: auto;
 }
-.paisley {
+#firstRow {
+    margin-top: 1em;
+}
+.paisley.leftSide {
     height: 35em;
-    width: 450px;
+    width: 25.2em;
+    background-image: url("photos/paisley.png");
+    background-position: -16.4em -16.6em;
+    background-size: 55em;
+    background-repeat: no-repeat;
+}
+.paisley.rightSide {
+    height: 35em;
+    width: 25.2em;
+    background-image: url("photos/paisley_rotated.png");
+    background-position: -16.4em -16.6em;
+    background-size: 55em;
+    background-repeat: no-repeat;
 }
 .leftSide{
     float: left;
@@ -51,22 +105,38 @@ em {
     float: right;
 }
 .textHolder{
-    width: 40%;
+    width: 45%;
 }
 .textBox{
-    width: 90%;
+    width: 60%;
     margin: auto;
     padding: 1.5em;
     margin-top: 2em;
     border: 4px solid #303030;
     border-radius: 2em;
     background: #ddd;
-    font-size: 90%;
+    font-size: 80%;
+}
+#secondRow .textBox, #thirdRow .textBox {
+    margin-top: 5em;
 }
 #secondRow p, #thirdRow p {
-    font-size: 80%
+    font-size: 80%;
 }
 footer {
-    height: 40px;
-    margin-bottom: 30px;    
+    width: 60%;
+    margin: auto;
+    background-color: #303030;
+    height: 20px;
+    margin-top: 30px;
+    padding: 1px;
+    border-radius: 1em;
+    border: 1px solid black;
+}
+footer p {
+    font-size: 80%;
+    text-align: center; 
+    margin-top: 1px;
+    color: #8a8a8a;
+    letter-spacing: 1px;
 }
