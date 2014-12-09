@@ -31,10 +31,10 @@ nav {
     height: 50px;
     width: 120%;
     margin-left: -10%;
-    background: -webkit-linear-gradient(#AB780F, #825B0B); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#AB780F, #825B0B); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#AB780F, #825B0B); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#AB780F, #825B0B); /* Standard syntax */
+    background: -webkit-linear-gradient(#B3B3B3, #333333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B3B3B3, #333333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B3B3B3, #333333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B3B3B3, #333333); /* Standard syntax */
     border: 1px solid #303030;
     border-radius: 2em;
 }
@@ -62,6 +62,7 @@ nav li:first-of-type {
 }
 h1{
     font-size: 300%;
+    color: black;
 }
 #firstRow p {
     font-size: 200%;
@@ -69,11 +70,13 @@ h1{
 strong {
     font-size: 140%;
     font-weight: 900;
+    color: red;
 }
 em {
     font-style: normal;
     font-size: 110%;
     font-weight: 600;
+    color: black;
 }
 .row {
     height: 36em;
@@ -85,17 +88,17 @@ em {
 .paisley.leftSide {
     height: 35em;
     width: 25.2em;
-    background-image: url("photos/paisley.png");
-    background-position: -16.4em -16.6em;
-    background-size: 55em;
+    background-image: url("photos/paisley-BW.png");
+    background-position: -15.9em -15.9em;
+    background-size: 54em;
     background-repeat: no-repeat;
 }
 .paisley.rightSide {
     height: 35em;
     width: 25.2em;
-    background-image: url("photos/paisley_rotated.png");
-    background-position: -16.4em -16.6em;
-    background-size: 55em;
+    background-image: url("photos/paisley_rotated-BW.png");
+    background-position: -15.9em -15.9em;
+    background-size: 54em;
     background-repeat: no-repeat;
 }
 .leftSide{
@@ -138,5 +141,5 @@ footer p {
     text-align: center; 
     margin-top: 1px;
     color: #8a8a8a;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
